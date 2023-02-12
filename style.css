@@ -58,18 +58,26 @@ max-width: 100%;
 .carousel-wrapper{
     overflow: hidden;
 }
+.swiper-slide .card{
+    background-color:#F1F3FF;
+ ;
+}
 .swiper-container {
     width: 50%;
     height: 100%;
     overflow: visible;
     margin: 0 auto;
 }
-.swiper-navigation{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.swiper-navigation .swiper-prev, .swiper-navigation .swiper-next {
+max-width:50px;    
+border-radius:100%;
+border: 0;
+padding: 10px;
 }
 
+.swiper-prev:hover,.swiper-next:hover{
+    background-color: #5CB85F;
+}
 
 @media screen and (max-width: 768px) {
     .swiper-container {
